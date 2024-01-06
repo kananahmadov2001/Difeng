@@ -1,4 +1,4 @@
-  .org 0 		; Program starts at address 0
+  	.org 0 		; Program starts at address 0
 	la r31,TOP	; r31 holds the loop address
 	la r30,PINS 	; r30 points to the address of the PINS module
 	la r29,LOOP0 	; Polling loops
